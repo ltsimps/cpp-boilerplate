@@ -1,4 +1,4 @@
-set(GTEST_SHUFFLE 1)
+ set(GTEST_SHUFFLE 1)
 
 add_executable(
     cpp-test
