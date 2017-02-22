@@ -19,7 +19,7 @@ PID_CONTROLLER::PID_CONTROLLER(double Kp, double Ki, double Kd, double dt)
 
 
 double PID_CONTROLLER::compute(double setPoint, double actualVelocity) {
-    double result = 0;
+    double result = -1;
 
     std::cout << "Implement compute for  PID_CONTROLLER."<<std::endl;
 
